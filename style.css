@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 5px;
+    }
+    section{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent1{
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .child{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(129, 10, 10);
+    }
+    .child1{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(5, 1, 1);
+    }
+    .parent2{
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .child2{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(194, 68, 46);
+        display: flex;
+        align-items: end;
+    }
+    .child3{
+        height: 50%;
+        width: 50%;
+        background-color: rgb(190, 68, 154);
+    }
+    .child4{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(194, 68, 46);
+        display: flex;
+        justify-content: end;
+    }
+    .child5{
+        height: 50%;
+        width: 50%;
+        background-color: rgb(190, 68, 154);
+    }
+    .parent3{
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .child6{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(230, 142, 42);
+    }
+    .child7{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(104, 16, 16);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child8{
+        height: 50%;
+        width: 25%;
+        background-color: rgb(202, 67, 34);
+    }
+    .child9{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(230, 142, 42);
+    }
+    .parent4{
+        height: 50%;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .child10{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(131, 87, 172);
+    }
+    .child11{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(165, 184, 57);
+    }
+    .child12{
+        height: 100%;
+        width: 33%;
+        background-color: rgb(187, 96, 114);
+    }
+    .parent5{
+        height: 50%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child13{
+        height: 50%;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    .child14{
+        height: 50%;
+        width: 100%;
+        background-color:rgb(79, 192, 186);
+    }
